@@ -1,0 +1,3 @@
+data("ChickWeight") head(ChickWeight)
+mean(ChickWeight$weight) mode(ChickWeight$weight) IQR(ChickWeight$weight) quantile(ChickWeight$weight)
+summary(ChickWeight$weight)
