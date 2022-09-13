@@ -1,0 +1,14 @@
+data("ChickWeight") head(ChickWeight)
+ChickWeight1<-table(ChickWeight$w
+eight,ChickWeight$Time)
+ChickWeightl
+chisq.test(ChickWeight1)
+A<-c(ChickWeight$weight)
+Mean<-mean (A)
+Minimum <-min (ChickWeight$weight) 
+Maximum <-max(ChickWeight$weight) 
+MinMax<-(A-Minimum)/
+(Maximum-Minimum)
+MinMax
+Decimalscaling=(A/100)
+Decimalscaling
